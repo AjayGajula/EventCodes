@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Key Info Events</title>
+    <link href="./keyinfo.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="text-display" >Press any key to get the JavaScript event keycode</div>
+    <div id="container" class="hide">
+        <div id="main-ascii">
+            <p id="text-ascii">65</p>
+        </div>
+        <div id="event-blog" class="blog">
+            <div class="event-functions">
+                <p class="event-heading">event.key</p>
+                <p id="keycode" class="text">a</p>
+            </div>
+            <div class="event-functions">
+                <p class="event-heading">event.location</p>
+                <p id="location" class="text">0</p>
+                <p id="keys">(General Keys</p>
+            </div>
+            <div class="event-functions">
+                <p class="event-heading">event.which</p>
+                <P id="ascii-code" class="text">65</P>
+            </div>
+            <div class="event-functions">
+                <p class="event-heading">event.code</p>
+                <p id="entered-key" class="text">a</p>
+            </div>
+        </div>
+    </div>
+    <script src="./keyinfo.js"></script>
+</body>
+</html>
